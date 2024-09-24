@@ -21,7 +21,7 @@ spec:
         image: ashfaque9x/regapp
         imagePullPolicy: Always
         ports:
-        - containerPort: 8080
+        - containerPort: 5656
   strategy:
     type: RollingUpdate
     rollingUpdate:
